@@ -1,11 +1,10 @@
-import 'package:bounce/bounce.dart';
 import 'package:easy_stepper/easy_stepper.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:mealplanner/core/colors/colors.dart';
 import 'package:mealplanner/core/presentation/widgets/button.dart';
 import 'package:mealplanner/features/auth/presentation/blocs/cubit/stepper/stepper_cubit.dart';
-import 'package:mealplanner/features/auth/presentation/screens/onboarding_screens/allergies_screen.dart';
+import 'package:mealplanner/features/auth/presentation/screens/onboarding_screens/perferences_screen.dart';
 import 'package:mealplanner/injection_container.dart';
 
 class GetStartedScreen extends StatelessWidget {
